@@ -1,0 +1,58 @@
+body {
+    background-color: lightblue;
+    font-family: Arial;
+    margin: 0;
+}
+header {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+form {
+    background-color: white;
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+h2 {
+    color: navy;
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+button {
+    background-color: navy;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: steelblue;
+}
+section {
+    background-color: white;
+    width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+footer {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
