@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+header {
+    background-color: green;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+.banner {
+    background-color: rgb(244, 248, 244);
+    text-align: center;
+    padding: 50px;
+}
+button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.categories {
+    text-align: center;
+    padding: 20px;
+}
+.category-con{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.category {
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+}
+.products {
+    text-align: center;
+    padding: 20px;
+}
+.procon {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
+    gap: 30px;
+}
+.product {
+     background-color: white;
+    padding: 20px;
+    border: none;
+}
+.product img{
+    width: 200px;
+    height: 250px;
+    object-fit: contain;
+    padding: 20px;
+    background-color: #eeeeee;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+footer {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    gap: 30px;
+     display: flex;
+}
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .category-con{
+        flex-direction: column;
+    }
+    .procon {
+        grid-template-columns: 1fr;
+    }
+}
