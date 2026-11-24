@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RichDrop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My Shopping Website</h1>
+    <button onclick="showMenu()">Menu</button>
+    <br>
+    <br>
+    <div id="menu">
+        <a href="#products">Products</a>
+        <a href="#cart">Cart</a>
+    </div>
+    <h2>Products</h2> 
+    <input type="text" id="search" placeholder="Search product">
+    <div id="products"></div>
+    <h2 id="cart">Shopping Cart</h2>
+    <div id="cartItems"></div>
+    <h3>Total: Rs.<span id="total">0</span></h3>
+    <h2>Registration Form</h2>
+    <form onsubmit="return validateForm()">
+        <input type="text" id="name" placeholder="Enter Name">
+        <br>
+        <br>
+        <input type="email" id="email" placeholder="Enter Email">
+        <br>
+        <br>
+        <input type="password" id="password" placeholder="Enter Password">
+        <br>
+        <br>
+        <button type="submit">Register</button>
+    </form>
+    <p id="message"></p>
+    <script src="script.js"></script>
+</body>
+</html>
